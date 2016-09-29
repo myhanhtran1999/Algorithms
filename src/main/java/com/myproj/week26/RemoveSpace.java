@@ -13,7 +13,7 @@ public class RemoveSpace {
 		System.out.println("After remove: " + Arrays.toString(removeSpace(list)));
 	}
 	
-	private static String[] removeSpace(String[] list) {
+	public static String[] removeSpace(String[] list) {
 		
 		// Replace multiple sequencial space
 		
