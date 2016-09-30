@@ -49,7 +49,7 @@ public class ConfigManager {  ///src/main/java/com/myproj/configs
 		return prop.getStringArray(key);
 	}
 	
-	public static PropertiesConfiguration getProp() {
+	public PropertiesConfiguration getProp() {
 		return prop;
 	}
 }
